@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: rgb(228, 228, 14);
+    
+  }
+
+  .fondo{
+    position:absolute;
+    width: 95vw;
+   
+    text-align: center;
+  }
+  
+
+ 
+ footer{
+  position: relative;
+  background-color: #000000bd;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  
+  opacity: 90%;
+  
+}
+
+footer a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(209, 205, 205);
+ 
+}
+
+footer p{
+  padding-top: 15px;
+  color: rgb(197, 197, 187);
+  font-style:unset;
+  font-size: 15pt;
+}
+
+footer a:hover {
+  color: red;
+}

@@ -1,0 +1,38 @@
+img{
+    position: relative;
+   opacity: 95%;
+   
+}
+
+map{
+    display: inline-flex;
+}
+
+ul{
+   
+    border: 1px inset;
+    padding: 20px;
+    margin: 20px;
+    text-align: center ;
+   
+    display: inline-flex;
+}
+
+.actores a{
+    font-size: 20pt;
+    text-decoration:none;
+    color:crimson;
+}
+
+h1{
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    position: relative;
+    font-size: 24pt;
+}
+
