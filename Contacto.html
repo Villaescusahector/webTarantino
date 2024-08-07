@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilos/navbar.css">
+    <link rel="stylesheet" href="./estilos/Style.css">
+    <link rel="stylesheet" href="./estilos/Contacto.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="./Index.html">Inicio</a>
+        <a href="./Director.html">Director</a>
+        <a href="./Peliculas.html">Filmografía</a>
+        <a href="./Contacto.html">Contacto</a>
+        <a href="./Mapa.html">Mapa interactivo</a>    
+      </div>
+
+      <h1>Encuesta</h1>
+      <img class="fondo" src="./imagenes/General/580b585b2edbce24c47b294d.png" alt="">
+    
+    <form action="" method="get">
+        <fieldset id="primerField">
+            <legend id="legend">Datos personales</legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="nombre">Nombre:*</label>
+                    </th>
+                </tr>
+                <td><input type="text" id="nombre" name="nombre" required></td>
+                <tr>
+                    <th><label for="email">Email:* </label></th>
+                </tr>
+                <td><input id="email" type="email" name="email" required></td>
+                <tr>
+                    <th><label for="telefono">Teléfono: </label></th>
+                </tr>
+                <td><input type="text"  id="telefono" name="telefono" ></td>
+        </table>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Cuestionario
+                </legend>
+                <label for="favorita" id="favorita">¿Cuál es tu película favorita de Tarantino?</label>
+                <br>
+                    <select name="favorita" id="favorita">
+                        <option value="">Reservoir Dogs</option>
+                        <option value="">Pulp Fiction</option>
+                        <option value="">Jackie Brown</option>
+                        <option value="">Kill Bill. Volumen 1</option>
+                        <option value="">Kill Bill. Volumen 2</option>
+                        <option value="">Death Proof</option>
+                        <option value="">Malditos Bastardos</option>
+                        <option value="">Django desencadenado</option>
+                        <option value="">Los odiosos ocho</option>
+                        <option value="">Érase una vez en... Hollywood</option>
+                    </select>
+                
+                <table>
+                    <caption>Puntúa la calidad de la película</caption>
+                    <tr>
+                        <th>Pelicula: </th>
+                        <th>Puntuación: </th>
+                    </tr>
+                        <tr>
+                            <td><label for="reservoir">Reservoir Dogs</label></td>
+                            <td >
+                                <select class="puntuacion" name="reservoir" id="reservoir">
+                                <option value="puntReservoir">Mala</option>
+                                <option value="puntReservoir">Regular</option>
+                                <option value="puntReservoir">Buena</option>
+                                <option value="puntReservoir">Muy Buena</option>
+                                <option value="puntReservoir">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label for="pulp_fiction">Pulp Fiction</label></td>
+                            <td >
+                                <select class="puntuacion" name="pulp_fiction" id="pulp_fiction">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="jackie_brown">Jackie Brown</label></td>
+                            <td >
+                                <select class="puntuacion" name="jackie_brown" id="jackie_brown">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="kill_bill_volume1">Kill Bill. Volumen 1</label></td>
+                            <td >
+                                <select class="puntuacion" name="kill_bill_volume1" id="kill_bill_volume1">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="kill_bill_volume2">Kill Bill. Volumen 2</label></td>
+                            <td >
+                                <select class="puntuacion" name="kill_bill_volume2" id="kill_bill_volume2">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="Death_proof">Death Proof</label></td>
+                            <td >
+                                <select class="puntuacion" name="Death_proof" id="Death_proof">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="malditos_bastardos">Malditos Bastardos</label></td>
+                            <td >
+                                <select class="puntuacion" name="malditos_bastardos" id="malditos_bastardos">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="django_unchained">Django desencadenado</label></td>
+                            <td>
+                                <select class="puntuacion" name="django_unchained" id="django_unchained">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="odiosos_ocho">Los odiosos ocho</label></td>
+                            <td >
+                                <select class="puntuacion" name="odiosos_ocho" id="odiosos_ocho">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><label for="Erase_una_vez">Érase una vez en... Hollywood</label></td>
+                            <td >
+                                <select class="puntuacion" name="Erase_una_vez" id="Erase_una_vez">
+                                <option value="punt">Mala</option>
+                                <option value="punt">Regular</option>
+                                <option value="punt">Buena</option>
+                                <option value="punt">Muy Buena</option>
+                                <option value="punt">Obra Maestra</option>
+                            </select>
+                        </td>
+                        </tr>
+                        
+                    </table>
+                    <label for="">Vota tus tres películas favoritas de Tarantino: </label>
+                    <br>
+                    <input type="checkbox" name="favo_reser"><label>Reservoir Dogs</label>
+                    <input type="checkbox" name="favo_Pulp"><label>Pulp Fiction</label>
+                    <input type="checkbox" name="favo_Jackie"><label>Jackie Brown</label>
+                    <input type="checkbox" name="favo_Kill1"><label>Kill Bill. Volumen 1</label>
+                    <input type="checkbox" name="favo_Kill2"><label>Kill Bill. Volumen 2</label>
+                    <br>
+                    <input type="checkbox" name="favo_Death"><label>Death Proof</label>
+                    <input type="checkbox" name="favo_Malditos"><label>Malditos Bastardos</label>
+                    <input type="checkbox" name="favo_Django"><label>Django desencadenado</label>
+                    <input type="checkbox" name="favo_ocho"><label>Los odiosos ocho</label>
+                    <input type="checkbox" name="favo_erase"><label>Érase una vez en... Hollywood</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Preguntas y sugerencias</legend>
+                <label for="contacto">Preguntas y sugerencias</label>
+                <br>
+                <textarea name="contacto" id="contacto" cols="70" rows="8" maxlength="500" placeholder="¿Cuándo será el pŕoximo estreno? ¿Cómo está el Admin?"></textarea>
+                <br>
+                <input type="checkbox" name="privacidad" required><label for="">Acepto la política de privacidad.</label>
+                <br>
+                <input type="radio" name="newsletter" required><label for="">Quiero recibir información en mi email.</label>
+                <br>
+                <input type="radio" name="newsletter" required><label for="">No quiero recibir información en mi email.</label>
+            </fieldset>
+        
+    <button type="submit">Enviar</button>
+    <button type="reset">Reiniciar</button>
+</form>  
+    
+<footer>
+        <p>1º DAW - IES Europa</p>
+        <hr>
+        <a class="active" href="./Index.html">Inicio</a>
+        <br>
+        <br>
+        <a href="./Director.html">Director</a>
+        <br>
+        <br>
+        <a href="./Peliculas.html">Filmografía</a>
+        <br>
+        <br>
+        <a href="./Contacto.html">Contacto</a>
+        <br>
+        <br>
+        <a href="./Mapa.html">Mapa interactivo</a>
+    </footer>
+</body>
+</html>
